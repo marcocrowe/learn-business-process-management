@@ -1,5 +1,5 @@
 
-# MGMT06061 Business Process Management Autumn Repeat 2022/2023 Paper
+# Business Process Management Autumn Repeat 2022/2023 Paper MGMT06061
 
 ## Question 1 (33.33 Marks)
 
@@ -29,7 +29,9 @@ The BPMN diagram shown below describes the process for recruiting new applicants
 
 Describe in your own words how the process works. Be sure to pay attention to the events, the gateways and the messages. Also be sure to describe the flow of the process
 
-> Figure 1: BPMN diagram for recruiting new applicants for a job
+![Question 3](business-process-2023-repeat-question-3.jpeg)
+
+![Question 3](business-process-2023-repeat-model.png)
 
 ## Question 4 (Total 33.33 Marks)
 
