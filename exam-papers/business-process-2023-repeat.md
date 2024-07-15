@@ -1,6 +1,12 @@
 
 # Business Process Management Autumn Repeat 2022/2023 Paper MGMT06061
 
+Time Allowed: 2 hours
+
+Total Marks: 100
+
+Answer any THREE questions.
+
 ## Question 1 (33.33 Marks)
 
 Practicing Business Process Management requires the measurement and supervision of process performance. The three main processes are;
