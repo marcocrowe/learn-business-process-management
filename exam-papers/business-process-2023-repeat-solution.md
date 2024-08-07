@@ -191,46 +191,44 @@ Describe in your own words how the process works. Be sure to pay attention to th
 
 [Bizagi Model File](images/business-process-2023-repeat-q3.bpm)
 
-### Question 3 Answer
+### Answer 3
 
-Sure, let's describe the process depicted in the BPMN diagram for recruiting new applicants for a job. The diagram involves two pools: the Applicant and the Recruitment Process.
+Certainly! Here is the description of the recruitment process with the inclusion of a Conditional Start Event:
 
-#### Process Flow Description
+##### BPMN Diagram Process Description
 
-1. **Applicant Pool**:
-   - The process begins when the applicant submits an application for a job. This is shown by the **Message Flow** from the Applicant pool to the "Receive and Screen Application" task in the Recruitment Process pool.
+1. **Conditional Start Event**:
+   - The process begins with a **Conditional Start Event**, depicted as a circle with a diamond (or square) inside. This indicates that the recruitment process starts when a predefined condition is met (e.g., a job position becomes vacant or there is approval to hire).
 
-2. **Recruitment Process Pool**:
-   - **Post Job Ad**: The recruitment process starts with the task of posting a job advertisement. This is the initial task that sets the process in motion.
-   - **Receive and Screen Application**: Once applications are submitted, they are received and screened. This involves an initial review to ensure that all necessary information has been provided and that the application meets basic criteria.
-   - **Quick Screen**: The screened applications go through a "Quick Screen" process. This likely involves a more detailed review to assess whether the applicant meets the specific qualifications for the job.
+2. **Post Job Ad**:
+   - Once the condition is met, the first task is to post a job advertisement. This is indicated by a task box labeled "Post Job Add".
 
-3. **Decision Gateway**:
-   - After the Quick Screen, there is a **Decision Gateway** to determine if the applicant is "Qualified" or "Not Qualified".
-     - **Not Qualified**: If the applicant is not qualified, they are rejected. This is shown by the flow to the "Rejected" end event. Additionally, a rejection message is sent to the applicant as indicated by the dashed message flow line.
-     - **Qualified**: If the applicant is qualified, they proceed to the next step, which involves logging the applicant as qualified and then moving on to the "Interview Candidates" task.
+3. **Receive and Screen Applications**:
+   - After the job ad is posted, applications are received. This is a subprocess labeled "Receive and Screen Applications".
+   - Within this subprocess, two events occur in sequence: receiving the application (depicted as a document icon) and then screening the application (depicted as an envelope icon).
 
-4. **Log and Interview**:
-   - **Log and Interview Candidates**: For those applicants who are qualified, their details are logged, and they are scheduled for interviews. This is the final step in the depicted process flow, which ensures that all qualified candidates are interviewed.
+4. **Quick Screen**:
+   - Applications go through a "Quick Screen" process, where an initial evaluation of the applicant's qualifications is conducted.
 
-#### Key Elements
+5. **Gateway - Qualified or Not Qualified**:
+   - After the quick screen, there is a decision point or gateway (depicted as a diamond shape) where applications are evaluated to determine if they are "Qualified" or "Not Qualified".
 
-- **Events**:
-  - Start Event (circle): Indicates the beginning of the recruitment process with the posting of the job ad.
-  - End Events (circle with thick border): There are two end events in this process:
-    - "Rejected" for applicants who do not qualify.
-    - "Qualified" for those who proceed to interviews.
-  
-- **Gateways**:
-  - The **Decision Gateway** (diamond shape) determines whether an applicant is qualified or not based on the quick screen results.
+6. **Not Qualified - Rejected**:
+   - If an applicant is determined to be "Not Qualified", they are rejected. This is shown by a flow leading to an end event labeled "Rejected" (depicted as a red circle).
 
-- **Messages**:
-  - **Application**: The initial submission from the applicant to the recruitment process.
-  - **Rejection**: A message sent back to the applicant if they are not qualified, informing them of their rejection.
+7. **Qualified - Interview Candidate**:
+   - If an applicant is deemed "Qualified", they proceed to the next step, which is to "Interview Candidate". This is shown by a task box labeled "Interview Candidate".
+   - The qualified applications are also logged in a list of qualified candidates, indicated by a box labeled "Log list of Qualified".
 
-**Summary:**
+8. **Interview Process**:
+   - The candidate undergoes the interview process. This is the final step in this BPMN diagram.
 
-The process starts with posting a job ad and ends with either rejecting unqualified applicants or scheduling interviews for qualified candidates. It involves an initial screening of applications, a quick screen to further assess qualifications, and a decision gateway to determine the applicant's eligibility. Qualified applicants are logged and proceed to the interview stage, while those not qualified are informed of their rejection. The flow of the process is sequential with clear decision points and communication steps, ensuring efficient and transparent handling of job applications.
+9. **Application and Rejection Messages**:
+   - Throughout this process, there are message flows indicating communication. Applications are submitted from an external pool labeled "Application", and rejection messages are sent back to this pool if the candidate is not qualified.
+
+##### Summary
+
+The recruitment process starts with a Conditional Start Event, meaning it begins when a specific condition is met. Once triggered, the job ad is posted, applications are received and screened, and a quick screen determines if applicants are qualified. Unqualified applicants are rejected, while qualified applicants proceed to an interview stage. Qualified candidates are logged for record-keeping, and the process includes communication flows for applications and rejections.
 
 ## Question 4 (Total 33.33 Marks)
 
