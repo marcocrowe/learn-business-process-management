@@ -179,6 +179,8 @@ Create the BPMN diagram:
 
 ![BPMN Diagram](images/business-process-2023-repeat-q2-answer.png)
 
+> [Bizagi Model File](images/business-process-2023-repeat-q2-answer.bpm)
+
 ## Question 3 (33.33 Marks)
 
 The BPMN diagram shown below describes the process for recruiting new applicants for a job.
