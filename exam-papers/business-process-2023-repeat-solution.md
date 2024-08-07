@@ -187,9 +187,9 @@ The BPMN diagram shown below describes the process for recruiting new applicants
 
 Describe in your own words how the process works. Be sure to pay attention to the events, the gateways and the messages. Also be sure to describe the flow of the process
 
-![Question 3](images/business-process-2023-repeat-question-3.jpeg)
+![Question 3](images/business-process-2023-repeat-q3.png)
 
-![Question 3](images/business-process-2023-repeat-model.png)
+[Bizagi Model File](images/business-process-2023-repeat-q3.bpm)
 
 ### Question 3 Answer
 
