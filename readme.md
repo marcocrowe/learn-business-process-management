@@ -5,9 +5,11 @@
 
 - [Bizagi Modeler](https://www.bizagi.com/en/products/bpm-suite/modeler "Bizagi Modeler")
 
-## Papers
+## Exam Papers
 
-- [MGMT06061 Business Process Management Autumn Repeat 2022/2023 Paper](exam-papers/business-process-2023-repeat.md "MGMT06061 Business Process Management Autumn Repeat 2022/2023 Paper")
+| Programme                   | Year | Code      | Paper                                                      | Solution                                                               |
+|-----------------------------|------|-----------|------------------------------------------------------------|------------------------------------------------------------------------|
+| Business Process Management | 2023 | MGMT06061 | [Paper](exam-papers/business-process-2023-repeat-paper.md) | [Solution](exam-papers/business-process-2023-repeat-solution.md) |
 
 ---
 
