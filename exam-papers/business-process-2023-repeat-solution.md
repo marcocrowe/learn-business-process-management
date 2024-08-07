@@ -195,7 +195,7 @@ Describe in your own words how the process works. Be sure to pay attention to th
 
 Certainly! Here is the description of the recruitment process with the inclusion of a Conditional Start Event:
 
-##### BPMN Diagram Process Description
+#### BPMN Diagram Process Description
 
 1. **Conditional Start Event**:
    - The process begins with a **Conditional Start Event**, depicted as a circle with a diamond (or square) inside. This indicates that the recruitment process starts when a predefined condition is met (e.g., a job position becomes vacant or there is approval to hire).
@@ -205,7 +205,7 @@ Certainly! Here is the description of the recruitment process with the inclusion
 
 3. **Receive and Screen Applications**:
    - After the job ad is posted, applications are received. This is a subprocess labeled "Receive and Screen Applications".
-   - Within this subprocess, two events occur in sequence: receiving the application (depicted as a document icon) and then screening the application (depicted as an envelope icon).
+   - Within this subprocess, two events occur in sequence: receiving the application (depicted as a document icon) and sending the application documents (depicted as an envelope icon) to the *Quick Screen* task.
 
 4. **Quick Screen**:
    - Applications go through a "Quick Screen" process, where an initial evaluation of the applicant's qualifications is conducted.
@@ -226,7 +226,7 @@ Certainly! Here is the description of the recruitment process with the inclusion
 9. **Application and Rejection Messages**:
    - Throughout this process, there are message flows indicating communication. Applications are submitted from an external pool labeled "Application", and rejection messages are sent back to this pool if the candidate is not qualified.
 
-##### Summary
+#### Summary
 
 The recruitment process starts with a Conditional Start Event, meaning it begins when a specific condition is met. Once triggered, the job ad is posted, applications are received and screened, and a quick screen determines if applicants are qualified. Unqualified applicants are rejected, while qualified applicants proceed to an interview stage. Qualified candidates are logged for record-keeping, and the process includes communication flows for applications and rejections.
 
